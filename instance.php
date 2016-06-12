@@ -7,8 +7,5 @@ require_once "config.php";
 
 
 spl_autoload_register("wxlib\autoload");
-$token =  wxlib\token::getToken();
 
-$token = $token['token'];
 
-var_dump(wxlib\iplist::getiplist($token));
